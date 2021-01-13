@@ -4,7 +4,7 @@ import './App.css';
 
 export default function App() {
   return (
-    <div>
+    <div className="full-height">
       <Header/>
       <div className="scale-in-center" id="welcome">
         <img src={'pfp.png'} alt="mersim rizmani" />

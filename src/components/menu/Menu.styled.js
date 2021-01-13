@@ -5,12 +5,13 @@ export const StyledMenu = styled.nav`
   flex-direction: column;
   justify-content: center;
   background-color: #a4c2f4;
-  height: 95vh;
+  height: 100;
   width: 30vh;
   text-align: left;
   padding: 2rem;
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 100%;
   transition: transform 0.3s ease-in-out;
   transform: ${({ open }) => open ? 'translateX(-100%)' : 'translateX(0)'};

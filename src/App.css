@@ -1,20 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Comfortaa);
 
-body {
+html, body {
+  min-height: 100%;
   margin: 0;
+}
+
+.full-height {
+  min-height: 100%;
 }
 
 img {
   width: 200px;
   border-radius: 100px;
+  border-style: solid;
+  border-color: white;
 }
 
 #welcome {
   position: absolute;
   display: flex;
   flex-direction: column;
-  z-index: 6;
+  z-index: 5;
   align-items: center;
   justify-content: center;
   width: 100vw;
@@ -28,6 +35,12 @@ img {
 }
 
 .scale-in-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -5;
   -webkit-animation: scale-in-center 1.5s cubic-bezier(0.250,
   0.460, 0.450, 0.940) 1s both;
   animation: scale-in-center 1.5s cubic-bezier(0.250, 0.460,

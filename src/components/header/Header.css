@@ -3,8 +3,19 @@
     flex-flow: row;
     position: static;
     background: rgba(76, 175, 79, 0);
+    z-index: 6;
+}
+
+.menuContainer {
+    z-index: 6;
 }
 
 .burgerIcon {
     float: right;
+}
+
+.headerText {
+    color: white;
+    font-family: Comfortaa;
+    font-size: 18pt;
 }

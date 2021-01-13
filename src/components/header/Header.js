@@ -11,7 +11,7 @@ export default function Header() {
     return (
         <div className="header">
             <div className="menuContainer">
-                <Burger className="burgerIcon" open={open} setOpen={setOpen}/>
+                <Burger open={open} setOpen={setOpen}/>
                 <Menu open={open} setOpen={setOpen}/>
             </div>
         </div>
