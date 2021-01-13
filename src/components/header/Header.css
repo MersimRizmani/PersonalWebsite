@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    flex-flow: row;
+    position: static;
+    background: rgba(76, 175, 79, 0);
+}
+
+.burgerIcon {
+    float: right;
+}
