@@ -4,7 +4,7 @@ export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #a4c2f4;
+  background: rgba(76, 175, 79, 0);
   height: 100;
   width: 30vh;
   text-align: left;
@@ -23,7 +23,7 @@ export const StyledMenu = styled.nav`
     padding: 2rem 0;
     font-weight: bold;
     letter-spacing: 0.5rem;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: color 0.3s linear;
   }

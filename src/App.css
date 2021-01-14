@@ -11,8 +11,8 @@ html, body {
 }
 
 img {
-  width: 200px;
-  border-radius: 100px;
+  width: 300px;
+  border-radius: 150px;
   border-style: solid;
   border-color: white;
 }
@@ -32,6 +32,8 @@ img {
   color: white;
   font-family: Comfortaa;
   font-size: 36px;
+  padding-top: 10px;
+  z-index: -5;
 }
 
 .scale-in-center {
